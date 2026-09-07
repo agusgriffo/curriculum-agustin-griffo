@@ -24,16 +24,10 @@ Este es el primer trabajo práctico para la asignatura Computación II. El objet
 
 **Tamaño de pantalla:** 1920 × 1080
 
-**Tecnologías utilizadas:** HTML5 y CSS3
+**Tecnologías utilizadas:** HTML5 y CSS
 
 **Maquetación:** Flexbox
 
 ## Autor
 
 **Agustín Nicolás Griffo**
-
-**Carrera:** Licenciatura en Diseño y Comunicación Visual
-
-**Universidad:** Universidad Nacional de Lanús
-
-**Asignatura:** Computación II
