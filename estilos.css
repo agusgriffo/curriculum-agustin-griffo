@@ -14,11 +14,17 @@ h1{
     background-image: url(img/Banner-web-textura.jpg);
     background-position: center;
     background-size: cover;
-    padding: 5px;
+    padding: 10px;
+    /* FLEXBOX */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 #cabecera {
     background-color: #010101;
     height: 150px;
+    
 }
 h1{
      font-family: "Metal", serif;
@@ -90,4 +96,39 @@ footer{
 .redes-sociales{
 margin: 0px;
 justify-content: left;
+}
+/* CONTENIDO DEL CV */
+
+/* CONTENEDOR PRINCIPAL */
+
+.contenido-cv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* HABILIDADES Y HERRAMIENTAS */
+
+.habilidades-herramientas {
+    display: flex;
+    gap: 50px;
+}
+
+
+/* COLUMNAS DE HABILIDADES Y HERRAMIENTAS */
+
+.habilidades-herramientas section {
+    flex: 1;
+}
+
+
+/* AJUSTE PARA PANTALLAS CHICAS */
+
+@media (max-width: 600px) {
+
+    .habilidades-herramientas {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
